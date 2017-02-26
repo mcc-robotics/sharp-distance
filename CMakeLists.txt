@@ -51,4 +51,6 @@ add_custom_target(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
+set(SRC_LIST src/SharpDistance.cpp src/SharpDistance.h)
+
 add_executable(${PROJECT_NAME} ${SRC_LIST})

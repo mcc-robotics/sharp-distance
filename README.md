@@ -12,4 +12,10 @@ Sharp distance sensors send multiple pulses and if you happen to catch one of th
 2. Read the sensor multiple times in a short period of time (burst reading)
 3. Take the lowest value of those multiple readings and assume that is the best reading.
 
-Note: Taking the lowest value works to avoid the noise because reading during the pulse of the sensor always results in a higher value.
+##Notes: 
+* Taking the lowest value works to avoid the noise because reading during the pulse of the sensor always results in a higher value.
+* Due to the nature of the library, when the library performs an actual reading (this does **not** happen every time update() is called) it will take 12ms to update. However, this delay will not affect the update frequency.
+
+##Example Output
+In this example, a sensor reading was taken every 500 milliseconds for ten minutes.
+![Library vs Raw Comparison](http://robotresearchlab.com/wp-content/uploads/2017/02/Raw-vs-Library-Comparison.png)
