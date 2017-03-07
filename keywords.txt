@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For SharpDistance
+#######################################
+
+#######################################
+# Library (KEYWORD1)
+#######################################
+
+SharpDistance	KEYWORD1	SharpDistance
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SharpDistance	KEYWORD1	SharpDistance
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+update	KEYWORD2
+setNumBurstSamples	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SAMPLE_RATE_MICROS  LITERAL1
+BURST_DELAY_MICROS  LITERAL1
