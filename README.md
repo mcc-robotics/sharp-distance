@@ -4,6 +4,8 @@
 
 The goal is to provide a library that can be used with analog Sharp distance sensors that can provide reliable output.
 
+For a full write up on how this research was done, check out <a href="robotresearchlab.com/2017/02/26/sharp-distance-sensors-and-eliminating-noise/">my article here</a> on www.RobotResearchLab.com
+
 ##Problem
 Sharp distance sensors send multiple pulses and if you happen to catch one of these pulses while reading the value you will get a spike in your reading. There is no easy way to time the readings so they avoid this repetitive pulsing and averaging values is still not enough to avoid the noise. For example, if you read a noisy output multiple times in a row or even within a short period your average will be skewed giving you a higher than normal reading.
 
