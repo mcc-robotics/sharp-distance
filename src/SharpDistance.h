@@ -10,7 +10,7 @@
 
 class SharpDistance {
 public:
-    SharpDistance(unsigned char sensorPin, int *readingVariable);
+    void init(unsigned char sensorPin, int *readingVariable);
 
     bool update(unsigned long micros);
 

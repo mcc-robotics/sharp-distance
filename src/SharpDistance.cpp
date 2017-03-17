@@ -5,7 +5,7 @@
 #include "Arduino.h"
 #include "SharpDistance.h"
 
-SharpDistance::SharpDistance(unsigned char sensorPin, int *readingVariable) {
+void SharpDistance::init(unsigned char sensorPin, int *readingVariable) {
 
   // Set up the pin as an input (in case it isn't already done)
   pinMode(sensorPin, INPUT);
